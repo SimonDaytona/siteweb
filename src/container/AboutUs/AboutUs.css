@@ -1,0 +1,43 @@
+.app__aboutus {
+    position: relative;
+    background-color: var(--color-black);
+}
+
+.app__aboutus-content {
+    width: 100%;
+    z-index: 2;
+}
+
+.app__aboutus-content_right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: right;
+}
+
+.app__aboutus-content_left {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    text-align: left;
+}
+
+.app__aboutus-content_dupleix p,
+.app__aboutus-content_raspail p {
+    margin: 2rem 0;
+    color: var(--color-grey);
+}
+
+.app__aboutus-img img {
+    width: 80%;
+}
+
+.app__wrapper-img {
+    size: 10%;
+}
